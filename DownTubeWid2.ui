@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form2</class>
+ <widget class="QWidget" name="Form2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1336</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="backbutton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource_Final2.qrc">
+     <normaloff>:/Second/Final_File/Back_Button.png</normaloff>:/Second/Final_File/Back_Button.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="url_label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>531</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>200</y>
+     <width>711</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(235, 5, 182, 255), stop:1 rgba(255, 158, 251, 255))</string>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::South</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideNone</enum>
+   </property>
+   <property name="documentMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="mp3_tab">
+    <attribute name="title">
+     <string>MP3(AUDIO)</string>
+    </attribute>
+    <widget class="QLabel" name="title_hold_label1">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>621</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Title_label1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;
+</string>
+     </property>
+     <property name="text">
+      <string>Title:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="quality_label1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;</string>
+     </property>
+     <property name="text">
+      <string>Quality:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="artist_label1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;</string>
+     </property>
+     <property name="text">
+      <string>Artist:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="artist_hold_label1">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>120</y>
+       <width>621</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="download_mp3_button">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>320</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(0, 0, 197);
+font-weight:bold;
+font-size:12px;
+border-radius:12px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>Format Shift To MP3</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>15</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="quality_combo_box1">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>220</y>
+       <width>171</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+color:white;
+padding-left:10px;</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>32 kbit/s - Low</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>64 kbit/s - Low</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>128 kbit/s - Low</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>192 kbit/s - Medium</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>256 kbit/s - High</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>320 kbit/s - Highest</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="size_label1">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>240</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;</string>
+     </property>
+     <property name="text">
+      <string>Size:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="size_hold_label1">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>220</y>
+       <width>251</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="mp4_tab">
+    <attribute name="title">
+     <string>MP4(VIDEO)</string>
+    </attribute>
+    <widget class="QLabel" name="title_hold_label2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>621</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="title_label2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;
+</string>
+     </property>
+     <property name="text">
+      <string>Title:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="quality_label2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;</string>
+     </property>
+     <property name="text">
+      <string>Quality:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="quality_combo_box2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>220</y>
+       <width>171</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+color:white;
+padding-left:15px;
+</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>144p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>240p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>360p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>480p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>720p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1080p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1440p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2160p</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4320p</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="artist_hold_label2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>120</y>
+       <width>621</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="artist_label2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;</string>
+     </property>
+     <property name="text">
+      <string>Artist:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="mp4_button">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>320</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(0, 0, 197);
+font-weight:bold;
+font-size:12px;
+border-radius:12px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>Download MP4</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="size_hold_label2">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>220</y>
+       <width>251</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(74, 74, 74);
+border-radius:20px;
+font-size:15px;
+padding-left:10px;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="size_label2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>240</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:bold;
+font-size:15px;
+background:transparent;</string>
+     </property>
+     <property name="text">
+      <string>Size:</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="logo_label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource_Final2.qrc">:/Second/Final_File/Main_Logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="thumbnail_label">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>250</y>
+     <width>461</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(235, 5, 182, 255), stop:1 rgba(255, 158, 251, 255))</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>tabWidget</zorder>
+  <zorder>url_label</zorder>
+  <zorder>backbutton</zorder>
+  <zorder>logo_label</zorder>
+  <zorder>thumbnail_label</zorder>
+ </widget>
+ <resources>
+  <include location="Resource_Final2.qrc"/>
+ </resources>
+ <connections/>
+</ui>

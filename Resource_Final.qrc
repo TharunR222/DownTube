@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="First">
+    <file>Final_File/Search_Logo.png</file>
+    <file>Final_File/Main_Logo.png</file>
+  </qresource>
+</RCC>

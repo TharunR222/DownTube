@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Second">
+    <file>Final_File/Back_Button.png</file>
+    <file>Final_File/Main_Logo.png</file>
+  </qresource>
+</RCC>
